@@ -1,0 +1,18 @@
+{
+    "name": "riakgu/php_composer_library",
+    "description": "Membuat Library Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "riakgu"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riakgu\\Belajar\\": "src/"
+        }
+    }
+}
